@@ -2,7 +2,7 @@
 //  TinkoffCalculatorUITestsLaunchTests.swift
 //  TinkoffCalculatorUITests
 //
-//  Created by Kamenko on 26.01.24.
+//  Created by Kamenko on 27.01.24.
 //
 
 import XCTest

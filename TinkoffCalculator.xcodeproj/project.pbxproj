@@ -7,66 +7,66 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		7FEE0FBF2B64441B00C31E28 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE0FBE2B64441B00C31E28 /* AppDelegate.swift */; };
-		7FEE0FC12B64441B00C31E28 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE0FC02B64441B00C31E28 /* SceneDelegate.swift */; };
-		7FEE0FC32B64441B00C31E28 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE0FC22B64441B00C31E28 /* ViewController.swift */; };
-		7FEE0FC62B64441B00C31E28 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEE0FC42B64441B00C31E28 /* Main.storyboard */; };
-		7FEE0FC82B64442300C31E28 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7FEE0FC72B64442300C31E28 /* Assets.xcassets */; };
-		7FEE0FCB2B64442400C31E28 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7FEE0FC92B64442400C31E28 /* LaunchScreen.storyboard */; };
-		7FEE0FD62B64442500C31E28 /* TinkoffCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE0FD52B64442500C31E28 /* TinkoffCalculatorTests.swift */; };
-		7FEE0FE02B64442500C31E28 /* TinkoffCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE0FDF2B64442500C31E28 /* TinkoffCalculatorUITests.swift */; };
-		7FEE0FE22B64442500C31E28 /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FEE0FE12B64442500C31E28 /* TinkoffCalculatorUITestsLaunchTests.swift */; };
+		7F6D212F2B653DB1001A9043 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D212E2B653DB1001A9043 /* AppDelegate.swift */; };
+		7F6D21312B653DB1001A9043 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D21302B653DB1001A9043 /* SceneDelegate.swift */; };
+		7F6D21332B653DB1001A9043 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D21322B653DB1001A9043 /* ViewController.swift */; };
+		7F6D21362B653DB1001A9043 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D21342B653DB1001A9043 /* Main.storyboard */; };
+		7F6D21382B653DB5001A9043 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D21372B653DB5001A9043 /* Assets.xcassets */; };
+		7F6D213B2B653DB5001A9043 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 7F6D21392B653DB5001A9043 /* LaunchScreen.storyboard */; };
+		7F6D21462B653DB6001A9043 /* TinkoffCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D21452B653DB6001A9043 /* TinkoffCalculatorTests.swift */; };
+		7F6D21502B653DB6001A9043 /* TinkoffCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D214F2B653DB6001A9043 /* TinkoffCalculatorUITests.swift */; };
+		7F6D21522B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D21512B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		7FEE0FD22B64442500C31E28 /* PBXContainerItemProxy */ = {
+		7F6D21422B653DB6001A9043 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FEE0FB32B64441B00C31E28 /* Project object */;
+			containerPortal = 7F6D21232B653DB1001A9043 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FEE0FBA2B64441B00C31E28;
+			remoteGlobalIDString = 7F6D212A2B653DB1001A9043;
 			remoteInfo = TinkoffCalculator;
 		};
-		7FEE0FDC2B64442500C31E28 /* PBXContainerItemProxy */ = {
+		7F6D214C2B653DB6001A9043 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 7FEE0FB32B64441B00C31E28 /* Project object */;
+			containerPortal = 7F6D21232B653DB1001A9043 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 7FEE0FBA2B64441B00C31E28;
+			remoteGlobalIDString = 7F6D212A2B653DB1001A9043;
 			remoteInfo = TinkoffCalculator;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		7FEE0FBB2B64441B00C31E28 /* TinkoffCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FEE0FBE2B64441B00C31E28 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		7FEE0FC02B64441B00C31E28 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		7FEE0FC22B64441B00C31E28 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		7FEE0FC52B64441B00C31E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		7FEE0FC72B64442300C31E28 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		7FEE0FCA2B64442400C31E28 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		7FEE0FCC2B64442400C31E28 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		7FEE0FD12B64442500C31E28 /* TinkoffCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FEE0FD52B64442500C31E28 /* TinkoffCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorTests.swift; sourceTree = "<group>"; };
-		7FEE0FDB2B64442500C31E28 /* TinkoffCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		7FEE0FDF2B64442500C31E28 /* TinkoffCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITests.swift; sourceTree = "<group>"; };
-		7FEE0FE12B64442500C31E28 /* TinkoffCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7F6D212B2B653DB1001A9043 /* TinkoffCalculator.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = TinkoffCalculator.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6D212E2B653DB1001A9043 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		7F6D21302B653DB1001A9043 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		7F6D21322B653DB1001A9043 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		7F6D21352B653DB1001A9043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		7F6D21372B653DB5001A9043 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F6D213A2B653DB5001A9043 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		7F6D213C2B653DB5001A9043 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		7F6D21412B653DB6001A9043 /* TinkoffCalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffCalculatorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6D21452B653DB6001A9043 /* TinkoffCalculatorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorTests.swift; sourceTree = "<group>"; };
+		7F6D214B2B653DB6001A9043 /* TinkoffCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F6D214F2B653DB6001A9043 /* TinkoffCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITests.swift; sourceTree = "<group>"; };
+		7F6D21512B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7FEE0FB82B64441B00C31E28 /* Frameworks */ = {
+		7F6D21282B653DB1001A9043 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FEE0FCE2B64442500C31E28 /* Frameworks */ = {
+		7F6D213E2B653DB6001A9043 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FEE0FD82B64442500C31E28 /* Frameworks */ = {
+		7F6D21482B653DB6001A9043 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -76,53 +76,53 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		7FEE0FB22B64441B00C31E28 = {
+		7F6D21222B653DB1001A9043 = {
 			isa = PBXGroup;
 			children = (
-				7FEE0FBD2B64441B00C31E28 /* TinkoffCalculator */,
-				7FEE0FD42B64442500C31E28 /* TinkoffCalculatorTests */,
-				7FEE0FDE2B64442500C31E28 /* TinkoffCalculatorUITests */,
-				7FEE0FBC2B64441B00C31E28 /* Products */,
+				7F6D212D2B653DB1001A9043 /* TinkoffCalculator */,
+				7F6D21442B653DB6001A9043 /* TinkoffCalculatorTests */,
+				7F6D214E2B653DB6001A9043 /* TinkoffCalculatorUITests */,
+				7F6D212C2B653DB1001A9043 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		7FEE0FBC2B64441B00C31E28 /* Products */ = {
+		7F6D212C2B653DB1001A9043 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				7FEE0FBB2B64441B00C31E28 /* TinkoffCalculator.app */,
-				7FEE0FD12B64442500C31E28 /* TinkoffCalculatorTests.xctest */,
-				7FEE0FDB2B64442500C31E28 /* TinkoffCalculatorUITests.xctest */,
+				7F6D212B2B653DB1001A9043 /* TinkoffCalculator.app */,
+				7F6D21412B653DB6001A9043 /* TinkoffCalculatorTests.xctest */,
+				7F6D214B2B653DB6001A9043 /* TinkoffCalculatorUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		7FEE0FBD2B64441B00C31E28 /* TinkoffCalculator */ = {
+		7F6D212D2B653DB1001A9043 /* TinkoffCalculator */ = {
 			isa = PBXGroup;
 			children = (
-				7FEE0FBE2B64441B00C31E28 /* AppDelegate.swift */,
-				7FEE0FC02B64441B00C31E28 /* SceneDelegate.swift */,
-				7FEE0FC22B64441B00C31E28 /* ViewController.swift */,
-				7FEE0FC42B64441B00C31E28 /* Main.storyboard */,
-				7FEE0FC72B64442300C31E28 /* Assets.xcassets */,
-				7FEE0FC92B64442400C31E28 /* LaunchScreen.storyboard */,
-				7FEE0FCC2B64442400C31E28 /* Info.plist */,
+				7F6D212E2B653DB1001A9043 /* AppDelegate.swift */,
+				7F6D21302B653DB1001A9043 /* SceneDelegate.swift */,
+				7F6D21322B653DB1001A9043 /* ViewController.swift */,
+				7F6D21342B653DB1001A9043 /* Main.storyboard */,
+				7F6D21372B653DB5001A9043 /* Assets.xcassets */,
+				7F6D21392B653DB5001A9043 /* LaunchScreen.storyboard */,
+				7F6D213C2B653DB5001A9043 /* Info.plist */,
 			);
 			path = TinkoffCalculator;
 			sourceTree = "<group>";
 		};
-		7FEE0FD42B64442500C31E28 /* TinkoffCalculatorTests */ = {
+		7F6D21442B653DB6001A9043 /* TinkoffCalculatorTests */ = {
 			isa = PBXGroup;
 			children = (
-				7FEE0FD52B64442500C31E28 /* TinkoffCalculatorTests.swift */,
+				7F6D21452B653DB6001A9043 /* TinkoffCalculatorTests.swift */,
 			);
 			path = TinkoffCalculatorTests;
 			sourceTree = "<group>";
 		};
-		7FEE0FDE2B64442500C31E28 /* TinkoffCalculatorUITests */ = {
+		7F6D214E2B653DB6001A9043 /* TinkoffCalculatorUITests */ = {
 			isa = PBXGroup;
 			children = (
-				7FEE0FDF2B64442500C31E28 /* TinkoffCalculatorUITests.swift */,
-				7FEE0FE12B64442500C31E28 /* TinkoffCalculatorUITestsLaunchTests.swift */,
+				7F6D214F2B653DB6001A9043 /* TinkoffCalculatorUITests.swift */,
+				7F6D21512B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift */,
 			);
 			path = TinkoffCalculatorUITests;
 			sourceTree = "<group>";
@@ -130,13 +130,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		7FEE0FBA2B64441B00C31E28 /* TinkoffCalculator */ = {
+		7F6D212A2B653DB1001A9043 /* TinkoffCalculator */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FEE0FE52B64442500C31E28 /* Build configuration list for PBXNativeTarget "TinkoffCalculator" */;
+			buildConfigurationList = 7F6D21552B653DB6001A9043 /* Build configuration list for PBXNativeTarget "TinkoffCalculator" */;
 			buildPhases = (
-				7FEE0FB72B64441B00C31E28 /* Sources */,
-				7FEE0FB82B64441B00C31E28 /* Frameworks */,
-				7FEE0FB92B64441B00C31E28 /* Resources */,
+				7F6D21272B653DB1001A9043 /* Sources */,
+				7F6D21282B653DB1001A9043 /* Frameworks */,
+				7F6D21292B653DB1001A9043 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -144,69 +144,69 @@
 			);
 			name = TinkoffCalculator;
 			productName = TinkoffCalculator;
-			productReference = 7FEE0FBB2B64441B00C31E28 /* TinkoffCalculator.app */;
+			productReference = 7F6D212B2B653DB1001A9043 /* TinkoffCalculator.app */;
 			productType = "com.apple.product-type.application";
 		};
-		7FEE0FD02B64442500C31E28 /* TinkoffCalculatorTests */ = {
+		7F6D21402B653DB6001A9043 /* TinkoffCalculatorTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FEE0FE82B64442500C31E28 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorTests" */;
+			buildConfigurationList = 7F6D21582B653DB6001A9043 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorTests" */;
 			buildPhases = (
-				7FEE0FCD2B64442500C31E28 /* Sources */,
-				7FEE0FCE2B64442500C31E28 /* Frameworks */,
-				7FEE0FCF2B64442500C31E28 /* Resources */,
+				7F6D213D2B653DB6001A9043 /* Sources */,
+				7F6D213E2B653DB6001A9043 /* Frameworks */,
+				7F6D213F2B653DB6001A9043 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FEE0FD32B64442500C31E28 /* PBXTargetDependency */,
+				7F6D21432B653DB6001A9043 /* PBXTargetDependency */,
 			);
 			name = TinkoffCalculatorTests;
 			productName = TinkoffCalculatorTests;
-			productReference = 7FEE0FD12B64442500C31E28 /* TinkoffCalculatorTests.xctest */;
+			productReference = 7F6D21412B653DB6001A9043 /* TinkoffCalculatorTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		7FEE0FDA2B64442500C31E28 /* TinkoffCalculatorUITests */ = {
+		7F6D214A2B653DB6001A9043 /* TinkoffCalculatorUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 7FEE0FEB2B64442500C31E28 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorUITests" */;
+			buildConfigurationList = 7F6D215B2B653DB6001A9043 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorUITests" */;
 			buildPhases = (
-				7FEE0FD72B64442500C31E28 /* Sources */,
-				7FEE0FD82B64442500C31E28 /* Frameworks */,
-				7FEE0FD92B64442500C31E28 /* Resources */,
+				7F6D21472B653DB6001A9043 /* Sources */,
+				7F6D21482B653DB6001A9043 /* Frameworks */,
+				7F6D21492B653DB6001A9043 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				7FEE0FDD2B64442500C31E28 /* PBXTargetDependency */,
+				7F6D214D2B653DB6001A9043 /* PBXTargetDependency */,
 			);
 			name = TinkoffCalculatorUITests;
 			productName = TinkoffCalculatorUITests;
-			productReference = 7FEE0FDB2B64442500C31E28 /* TinkoffCalculatorUITests.xctest */;
+			productReference = 7F6D214B2B653DB6001A9043 /* TinkoffCalculatorUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		7FEE0FB32B64441B00C31E28 /* Project object */ = {
+		7F6D21232B653DB1001A9043 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
-				LastSwiftUpdateCheck = 1420;
-				LastUpgradeCheck = 1420;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
 				TargetAttributes = {
-					7FEE0FBA2B64441B00C31E28 = {
-						CreatedOnToolsVersion = 14.2;
+					7F6D212A2B653DB1001A9043 = {
+						CreatedOnToolsVersion = 14.3.1;
 					};
-					7FEE0FD02B64442500C31E28 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 7FEE0FBA2B64441B00C31E28;
+					7F6D21402B653DB6001A9043 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7F6D212A2B653DB1001A9043;
 					};
-					7FEE0FDA2B64442500C31E28 = {
-						CreatedOnToolsVersion = 14.2;
-						TestTargetID = 7FEE0FBA2B64441B00C31E28;
+					7F6D214A2B653DB6001A9043 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = 7F6D212A2B653DB1001A9043;
 					};
 				};
 			};
-			buildConfigurationList = 7FEE0FB62B64441B00C31E28 /* Build configuration list for PBXProject "TinkoffCalculator" */;
+			buildConfigurationList = 7F6D21262B653DB1001A9043 /* Build configuration list for PBXProject "TinkoffCalculator" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -214,37 +214,37 @@
 				en,
 				Base,
 			);
-			mainGroup = 7FEE0FB22B64441B00C31E28;
-			productRefGroup = 7FEE0FBC2B64441B00C31E28 /* Products */;
+			mainGroup = 7F6D21222B653DB1001A9043;
+			productRefGroup = 7F6D212C2B653DB1001A9043 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				7FEE0FBA2B64441B00C31E28 /* TinkoffCalculator */,
-				7FEE0FD02B64442500C31E28 /* TinkoffCalculatorTests */,
-				7FEE0FDA2B64442500C31E28 /* TinkoffCalculatorUITests */,
+				7F6D212A2B653DB1001A9043 /* TinkoffCalculator */,
+				7F6D21402B653DB6001A9043 /* TinkoffCalculatorTests */,
+				7F6D214A2B653DB6001A9043 /* TinkoffCalculatorUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		7FEE0FB92B64441B00C31E28 /* Resources */ = {
+		7F6D21292B653DB1001A9043 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FEE0FCB2B64442400C31E28 /* LaunchScreen.storyboard in Resources */,
-				7FEE0FC82B64442300C31E28 /* Assets.xcassets in Resources */,
-				7FEE0FC62B64441B00C31E28 /* Main.storyboard in Resources */,
+				7F6D213B2B653DB5001A9043 /* LaunchScreen.storyboard in Resources */,
+				7F6D21382B653DB5001A9043 /* Assets.xcassets in Resources */,
+				7F6D21362B653DB1001A9043 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FEE0FCF2B64442500C31E28 /* Resources */ = {
+		7F6D213F2B653DB6001A9043 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FEE0FD92B64442500C31E28 /* Resources */ = {
+		7F6D21492B653DB6001A9043 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -254,61 +254,61 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7FEE0FB72B64441B00C31E28 /* Sources */ = {
+		7F6D21272B653DB1001A9043 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FEE0FC32B64441B00C31E28 /* ViewController.swift in Sources */,
-				7FEE0FBF2B64441B00C31E28 /* AppDelegate.swift in Sources */,
-				7FEE0FC12B64441B00C31E28 /* SceneDelegate.swift in Sources */,
+				7F6D21332B653DB1001A9043 /* ViewController.swift in Sources */,
+				7F6D212F2B653DB1001A9043 /* AppDelegate.swift in Sources */,
+				7F6D21312B653DB1001A9043 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FEE0FCD2B64442500C31E28 /* Sources */ = {
+		7F6D213D2B653DB6001A9043 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FEE0FD62B64442500C31E28 /* TinkoffCalculatorTests.swift in Sources */,
+				7F6D21462B653DB6001A9043 /* TinkoffCalculatorTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		7FEE0FD72B64442500C31E28 /* Sources */ = {
+		7F6D21472B653DB6001A9043 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7FEE0FE22B64442500C31E28 /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */,
-				7FEE0FE02B64442500C31E28 /* TinkoffCalculatorUITests.swift in Sources */,
+				7F6D21522B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */,
+				7F6D21502B653DB6001A9043 /* TinkoffCalculatorUITests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		7FEE0FD32B64442500C31E28 /* PBXTargetDependency */ = {
+		7F6D21432B653DB6001A9043 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FEE0FBA2B64441B00C31E28 /* TinkoffCalculator */;
-			targetProxy = 7FEE0FD22B64442500C31E28 /* PBXContainerItemProxy */;
+			target = 7F6D212A2B653DB1001A9043 /* TinkoffCalculator */;
+			targetProxy = 7F6D21422B653DB6001A9043 /* PBXContainerItemProxy */;
 		};
-		7FEE0FDD2B64442500C31E28 /* PBXTargetDependency */ = {
+		7F6D214D2B653DB6001A9043 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 7FEE0FBA2B64441B00C31E28 /* TinkoffCalculator */;
-			targetProxy = 7FEE0FDC2B64442500C31E28 /* PBXContainerItemProxy */;
+			target = 7F6D212A2B653DB1001A9043 /* TinkoffCalculator */;
+			targetProxy = 7F6D214C2B653DB6001A9043 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		7FEE0FC42B64441B00C31E28 /* Main.storyboard */ = {
+		7F6D21342B653DB1001A9043 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7FEE0FC52B64441B00C31E28 /* Base */,
+				7F6D21352B653DB1001A9043 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		7FEE0FC92B64442400C31E28 /* LaunchScreen.storyboard */ = {
+		7F6D21392B653DB5001A9043 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				7FEE0FCA2B64442400C31E28 /* Base */,
+				7F6D213A2B653DB5001A9043 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -316,7 +316,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		7FEE0FE32B64442500C31E28 /* Debug */ = {
+		7F6D21532B653DB6001A9043 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -366,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
@@ -376,7 +376,7 @@
 			};
 			name = Debug;
 		};
-		7FEE0FE42B64442500C31E28 /* Release */ = {
+		7F6D21542B653DB6001A9043 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -420,7 +420,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
@@ -430,7 +430,7 @@
 			};
 			name = Release;
 		};
-		7FEE0FE62B64442500C31E28 /* Debug */ = {
+		7F6D21562B653DB6001A9043 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -457,7 +457,7 @@
 			};
 			name = Debug;
 		};
-		7FEE0FE72B64442500C31E28 /* Release */ = {
+		7F6D21572B653DB6001A9043 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -484,7 +484,7 @@
 			};
 			name = Release;
 		};
-		7FEE0FE92B64442500C31E28 /* Debug */ = {
+		7F6D21592B653DB6001A9043 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -492,7 +492,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kamenkogena.TinkoffCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -503,7 +503,7 @@
 			};
 			name = Debug;
 		};
-		7FEE0FEA2B64442500C31E28 /* Release */ = {
+		7F6D215A2B653DB6001A9043 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -511,7 +511,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 16.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.kamenkogena.TinkoffCalculatorTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -522,7 +522,7 @@
 			};
 			name = Release;
 		};
-		7FEE0FEC2B64442500C31E28 /* Debug */ = {
+		7F6D215C2B653DB6001A9043 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -539,7 +539,7 @@
 			};
 			name = Debug;
 		};
-		7FEE0FED2B64442500C31E28 /* Release */ = {
+		7F6D215D2B653DB6001A9043 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
@@ -559,43 +559,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		7FEE0FB62B64441B00C31E28 /* Build configuration list for PBXProject "TinkoffCalculator" */ = {
+		7F6D21262B653DB1001A9043 /* Build configuration list for PBXProject "TinkoffCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FEE0FE32B64442500C31E28 /* Debug */,
-				7FEE0FE42B64442500C31E28 /* Release */,
+				7F6D21532B653DB6001A9043 /* Debug */,
+				7F6D21542B653DB6001A9043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FEE0FE52B64442500C31E28 /* Build configuration list for PBXNativeTarget "TinkoffCalculator" */ = {
+		7F6D21552B653DB6001A9043 /* Build configuration list for PBXNativeTarget "TinkoffCalculator" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FEE0FE62B64442500C31E28 /* Debug */,
-				7FEE0FE72B64442500C31E28 /* Release */,
+				7F6D21562B653DB6001A9043 /* Debug */,
+				7F6D21572B653DB6001A9043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FEE0FE82B64442500C31E28 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorTests" */ = {
+		7F6D21582B653DB6001A9043 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FEE0FE92B64442500C31E28 /* Debug */,
-				7FEE0FEA2B64442500C31E28 /* Release */,
+				7F6D21592B653DB6001A9043 /* Debug */,
+				7F6D215A2B653DB6001A9043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		7FEE0FEB2B64442500C31E28 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorUITests" */ = {
+		7F6D215B2B653DB6001A9043 /* Build configuration list for PBXNativeTarget "TinkoffCalculatorUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				7FEE0FEC2B64442500C31E28 /* Debug */,
-				7FEE0FED2B64442500C31E28 /* Release */,
+				7F6D215C2B653DB6001A9043 /* Debug */,
+				7F6D215D2B653DB6001A9043 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 7FEE0FB32B64441B00C31E28 /* Project object */;
+	rootObject = 7F6D21232B653DB1001A9043 /* Project object */;
 }
