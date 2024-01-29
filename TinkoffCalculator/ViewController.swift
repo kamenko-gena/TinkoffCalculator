@@ -9,6 +9,7 @@ import UIKit
 
 enum CalculationError: Error {
     case dividedByZero
+    case limitedNumber
 }
 
 enum Operation: String {
@@ -46,6 +47,13 @@ class ViewController: UIViewController {
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         guard let buttonText = sender.currentTitle else { return }
+        
+        if let labelText = label.text {
+            let strippedText = labelText.replacingOccurrences(of: ",", with: "")
+            if strippedText.count >= 8 {
+                return
+            }
+        }
         
         if buttonText == "," && label.text?.contains(",") == true {
             return
@@ -93,8 +101,10 @@ class ViewController: UIViewController {
         
         do {
             let result = try calculate()
+            label.text = try formatResult(result)
+        } catch CalculationError.limitedNumber {
+            label.text = "Ошибка: макс. количество знаков 16"
             
-            label.text = numberFormatter.string(from: NSNumber(value: result))
         } catch {
             label.text = "Ошибка"
         }
@@ -124,6 +134,8 @@ class ViewController: UIViewController {
         resetLabelText()
     }
     
+    
+    
     func calculate() throws -> Double {
         guard case .number(let firstNumber) = calculationHistory[0] else { return 0 }
         
@@ -135,6 +147,7 @@ class ViewController: UIViewController {
                 case .number(let number) = calculationHistory[index + 1]
             else { break }
             
+            
             currentResult = try operation.calculate(currentResult, number)
         }
         
@@ -144,6 +157,17 @@ class ViewController: UIViewController {
     func resetLabelText() {
         label.text = "0"
     }
+    
+    func formatResult(_ result: Double) throws -> String {
+            let resultString = numberFormatter.string(from: NSNumber(value: result)) ?? ""
+            if let dotIndex = resultString.firstIndex(of: ",") {
+                let digitsBeforeDot = resultString.distance(from: resultString.startIndex, to: dotIndex)
+                if digitsBeforeDot > 16 {
+                    throw CalculationError.limitedNumber
+                }
+            }
+            return resultString
+        }
 
 
 }
