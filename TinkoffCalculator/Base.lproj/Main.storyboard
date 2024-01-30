@@ -235,6 +235,7 @@
                                     <imageReference key="image" image="clock" catalog="system" symbolScale="large"/>
                                 </buttonConfiguration>
                                 <connections>
+                                    <action selector="historyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2fI-Cb-Icy"/>
                                     <action selector="showCalculationList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-3R-wps"/>
                                     <segue destination="rcv-RL-BOz" kind="show" identifier="CALCULATIONS_LIST" id="HMl-AL-p3T"/>
                                 </connections>
@@ -341,43 +342,21 @@
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="NoData" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="2Vs-K4-Tc1">
-                                <rect key="frame" x="167.66666666666666" y="416" width="57.666666666666657" height="20.333333333333314"/>
-                                <color key="tintColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KtM-1r-nkp">
-                                <rect key="frame" x="151.33333333333334" y="525.66666666666663" width="90.666666666666657" height="35"/>
-                                <state key="normal" title="Button"/>
-                                <buttonConfiguration key="configuration" style="plain" title="Закрыть"/>
-                                <connections>
-                                    <action selector="dismissVC:" destination="rcv-RL-BOz" eventType="touchUpInside" id="W1H-tE-36q"/>
-                                </connections>
-                            </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Результат" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="MpU-qc-mht">
-                                <rect key="frame" x="157" y="351.33333333333331" width="79" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
-                                <nil key="textColor"/>
-                                <nil key="highlightedColor"/>
-                            </label>
+                            <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="-1" estimatedSectionHeaderHeight="-1" sectionFooterHeight="-1" estimatedSectionFooterHeight="-1" translatesAutoresizingMaskIntoConstraints="NO" id="C3K-6g-HNO">
+                                <rect key="frame" x="0.0" y="103" width="393" height="715"/>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            </tableView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="4OJ-7X-fdp"/>
                         <color key="backgroundColor" systemColor="opaqueSeparatorColor"/>
                         <constraints>
-                            <constraint firstItem="MpU-qc-mht" firstAttribute="centerX" secondItem="Gsk-dZ-SeS" secondAttribute="centerX" id="GcZ-vd-AgF"/>
-                            <constraint firstItem="KtM-1r-nkp" firstAttribute="centerX" secondItem="Gsk-dZ-SeS" secondAttribute="centerX" id="MhV-kw-NP7"/>
-                            <constraint firstItem="2Vs-K4-Tc1" firstAttribute="top" secondItem="MpU-qc-mht" secondAttribute="bottom" constant="43.666666666666686" id="XZc-Qp-SI0"/>
-                            <constraint firstItem="KtM-1r-nkp" firstAttribute="top" secondItem="2Vs-K4-Tc1" secondAttribute="bottom" constant="89.333333333333314" id="jzd-2L-DAK"/>
-                            <constraint firstItem="2Vs-K4-Tc1" firstAttribute="centerY" secondItem="Gsk-dZ-SeS" secondAttribute="centerY" id="kD9-VK-oeK"/>
-                            <constraint firstItem="2Vs-K4-Tc1" firstAttribute="centerX" secondItem="Gsk-dZ-SeS" secondAttribute="centerX" id="wND-fe-ncX"/>
+                            <constraint firstItem="C3K-6g-HNO" firstAttribute="top" secondItem="4OJ-7X-fdp" secondAttribute="top" id="VmH-js-UAG"/>
+                            <constraint firstItem="C3K-6g-HNO" firstAttribute="bottom" secondItem="4OJ-7X-fdp" secondAttribute="bottom" id="Vx8-qU-HUT"/>
+                            <constraint firstItem="4OJ-7X-fdp" firstAttribute="trailing" secondItem="C3K-6g-HNO" secondAttribute="trailing" id="gQT-8o-jm0"/>
+                            <constraint firstItem="C3K-6g-HNO" firstAttribute="leading" secondItem="4OJ-7X-fdp" secondAttribute="leading" id="zZy-BL-i4q"/>
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Прошлые вычисления" id="tPP-AB-ual"/>
-                    <connections>
-                        <outlet property="calculationLabel" destination="2Vs-K4-Tc1" id="eUN-BX-QnJ"/>
-                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qM-kT-DdD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

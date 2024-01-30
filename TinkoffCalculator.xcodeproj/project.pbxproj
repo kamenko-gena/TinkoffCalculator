@@ -17,6 +17,8 @@
 		7F6D21462B653DB6001A9043 /* TinkoffCalculatorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D21452B653DB6001A9043 /* TinkoffCalculatorTests.swift */; };
 		7F6D21502B653DB6001A9043 /* TinkoffCalculatorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D214F2B653DB6001A9043 /* TinkoffCalculatorUITests.swift */; };
 		7F6D21522B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F6D21512B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift */; };
+		7FFCE0302B68DBD800024873 /* HistoryTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FFCE02F2B68DBD800024873 /* HistoryTableViewCell.swift */; };
+		7FFCE0322B68DCDB00024873 /* HistoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 7FFCE0312B68DCDB00024873 /* HistoryTableViewCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +53,8 @@
 		7F6D214B2B653DB6001A9043 /* TinkoffCalculatorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TinkoffCalculatorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		7F6D214F2B653DB6001A9043 /* TinkoffCalculatorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITests.swift; sourceTree = "<group>"; };
 		7F6D21512B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TinkoffCalculatorUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		7FFCE02F2B68DBD800024873 /* HistoryTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryTableViewCell.swift; sourceTree = "<group>"; };
+		7FFCE0312B68DCDB00024873 /* HistoryTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = HistoryTableViewCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +105,10 @@
 		7F6D212D2B653DB1001A9043 /* TinkoffCalculator */ = {
 			isa = PBXGroup;
 			children = (
+				7FFCE02E2B68DB9900024873 /* History */,
 				7F6D212E2B653DB1001A9043 /* AppDelegate.swift */,
 				7F6D21302B653DB1001A9043 /* SceneDelegate.swift */,
 				7F6D21322B653DB1001A9043 /* ViewController.swift */,
-				7F3B9F512B67C4BF0076C1AE /* CalculationsListViewController.swift */,
 				7F6D21342B653DB1001A9043 /* Main.storyboard */,
 				7F6D21372B653DB5001A9043 /* Assets.xcassets */,
 				7F6D21392B653DB5001A9043 /* LaunchScreen.storyboard */,
@@ -128,6 +132,16 @@
 				7F6D21512B653DB6001A9043 /* TinkoffCalculatorUITestsLaunchTests.swift */,
 			);
 			path = TinkoffCalculatorUITests;
+			sourceTree = "<group>";
+		};
+		7FFCE02E2B68DB9900024873 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				7F3B9F512B67C4BF0076C1AE /* CalculationsListViewController.swift */,
+				7FFCE02F2B68DBD800024873 /* HistoryTableViewCell.swift */,
+				7FFCE0312B68DCDB00024873 /* HistoryTableViewCell.xib */,
+			);
+			path = History;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -236,6 +250,7 @@
 			files = (
 				7F6D213B2B653DB5001A9043 /* LaunchScreen.storyboard in Resources */,
 				7F6D21382B653DB5001A9043 /* Assets.xcassets in Resources */,
+				7FFCE0322B68DCDB00024873 /* HistoryTableViewCell.xib in Resources */,
 				7F6D21362B653DB1001A9043 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -265,6 +280,7 @@
 				7F6D21332B653DB1001A9043 /* ViewController.swift in Sources */,
 				7F6D212F2B653DB1001A9043 /* AppDelegate.swift in Sources */,
 				7F6D21312B653DB1001A9043 /* SceneDelegate.swift in Sources */,
+				7FFCE0302B68DBD800024873 /* HistoryTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

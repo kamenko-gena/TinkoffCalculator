@@ -44,6 +44,10 @@ enum CalculationHistoryItem {
 }
 
 class ViewController: UIViewController {
+    
+    var calculationHistory: [CalculationHistoryItem] = []
+    
+    var calculations: [(expression: [CalculationHistoryItem], result: Double)] = []
 
     @IBAction func buttonPressed(_ sender: UIButton) {
         guard let buttonText = sender.currentTitle else { return }
@@ -101,7 +105,9 @@ class ViewController: UIViewController {
         
         do {
             let result = try calculate()
+            
             label.text = try formatResult(result)
+            calculations.append((calculationHistory, result))
         } catch CalculationError.limitedNumber {
             label.text = "Ошибка: макс. количество знаков 16"
             
@@ -115,7 +121,8 @@ class ViewController: UIViewController {
     
     @IBOutlet weak var label: UILabel!
     
-    var calculationHistory: [CalculationHistoryItem] = []
+    @IBOutlet var historyButton: UIButton!
+    
     
     lazy var numberFormatter: NumberFormatter = {
         let numberFormatter = NumberFormatter()
@@ -132,6 +139,7 @@ class ViewController: UIViewController {
         // Do any additional setup after loading the view.
         
         resetLabelText()
+        historyButton.accessibilityIdentifier = "historyButton"
     }
     
     override func viewWillAppear(_ animated: Bool) {
@@ -146,7 +154,7 @@ class ViewController: UIViewController {
         let sb = UIStoryboard(name: "Main", bundle: nil)
         let calculationsListVC = sb.instantiateViewController(identifier: "CalculationsListViewController")
         if let vc = calculationsListVC as? CalculationsListViewController {
-            vc.result = label.text
+            vc.calculations = calculations
         }
         
         navigationController?.pushViewController(calculationsListVC, animated: true)
