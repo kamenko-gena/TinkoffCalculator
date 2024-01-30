@@ -227,7 +227,7 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffe-KP-7wh">
+                            <button opaque="NO" contentMode="scaleToFill" restorationIdentifier="historyButton" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Ffe-KP-7wh">
                                 <rect key="frame" x="0.0" y="353.33333333333331" width="147.33333333333334" height="93"/>
                                 <color key="backgroundColor" systemColor="secondaryLabelColor"/>
                                 <state key="normal" title="Button"/>
@@ -235,7 +235,6 @@
                                     <imageReference key="image" image="clock" catalog="system" symbolScale="large"/>
                                 </buttonConfiguration>
                                 <connections>
-                                    <action selector="historyButton:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2fI-Cb-Icy"/>
                                     <action selector="showCalculationList:" destination="BYZ-38-t0r" eventType="touchUpInside" id="nX9-3R-wps"/>
                                     <segue destination="rcv-RL-BOz" kind="show" identifier="CALCULATIONS_LIST" id="HMl-AL-p3T"/>
                                 </connections>
@@ -327,6 +326,7 @@
                     </view>
                     <navigationItem key="navigationItem" title="Калькулятор" id="G2D-pq-5K6"/>
                     <connections>
+                        <outlet property="historyButton" destination="Ffe-KP-7wh" id="gQv-MX-Qx7"/>
                         <outlet property="label" destination="gHo-10-0Pa" id="bjM-Gb-Ymo"/>
                     </connections>
                 </viewController>
@@ -357,6 +357,9 @@
                         </constraints>
                     </view>
                     <navigationItem key="navigationItem" title="Прошлые вычисления" id="tPP-AB-ual"/>
+                    <connections>
+                        <outlet property="tableView" destination="C3K-6g-HNO" id="JRY-ce-Yqt"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="0qM-kT-DdD" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>

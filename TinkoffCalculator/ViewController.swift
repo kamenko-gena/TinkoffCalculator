@@ -119,7 +119,7 @@ class ViewController: UIViewController {
         
     }
     
-    @IBOutlet weak var label: UILabel!
+    @IBOutlet var label: UILabel!
     
     @IBOutlet var historyButton: UIButton!
     
@@ -136,10 +136,11 @@ class ViewController: UIViewController {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        historyButton.accessibilityIdentifier = "historyButton"
         // Do any additional setup after loading the view.
         
         resetLabelText()
-        historyButton.accessibilityIdentifier = "historyButton"
+        
     }
     
     override func viewWillAppear(_ animated: Bool) {
